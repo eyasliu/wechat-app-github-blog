@@ -5,8 +5,10 @@
 
 本小程序用户展示github的issues文章，可以在 app.json 配置文件中修改你自己的源
 
-# 已知bug
+# 截图
 
- - 文章简介显示的是markdown源码而不是原文(无法修复)
- - 文章内容显示的是html源码而不是原文(无法修复)
- - 无法加载下一页
+**列表**
+![](./screenshots/list.png)
+
+**详情页**
+![](./screenshots/detail.png)
