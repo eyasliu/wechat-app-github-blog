@@ -13,7 +13,7 @@
 
 <template name="list">
 	<view class="list" wx:if="{{list.length > 0}}">
-		<template wx:for="{{list}}" is="item" data="{{item: item}}" />
+		<template wx:for="{{list}}" wx:key="number" is="item" data="{{item: item}}" />
 	</view>
 	<loading wx:else>加载中...</loading>
 </template>

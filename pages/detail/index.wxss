@@ -1,3 +1,4 @@
+@import '../../wxParse/wxParse.wxss'
 .detail{
 	background: #fff;
 	min-height: 100%;

@@ -1,3 +1,4 @@
+<import src="../../wxParse/wxParse.wxml" />
 <template name="header">
 	<view class="header">
 		<navigator url="/pages/index/index" redirect="true">
@@ -15,7 +16,7 @@
 			{{item.title}}
 		</view>
 		<view class="content">
-			{{item.body}}
+			<template is="wxParse" data="{{wxParseData}}" />
 		</view>
 	</view>
 </view>
