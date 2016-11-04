@@ -8,9 +8,11 @@
 # 截图
 
 **列表**
+
 ![](./screenshots/list.png)
 
 **详情页**
+
 ![](./screenshots/detail.png)
 
 # TODO
