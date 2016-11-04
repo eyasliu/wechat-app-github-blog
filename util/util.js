@@ -1,4 +1,4 @@
-require('./marked.min.js');
+var marked = require('./marked.min.js');
 
 // // markdown parser
 marked.setOptions({
